@@ -448,7 +448,7 @@ export const siteContent: SiteContent = {
         title: "Varsity Field & Court",
         subtitle: "Character built through sportsmanship",
         image:
-          "https://images.unsplash.com/photo-1526676037777-05a232554f77?q=80&w=800&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=800&auto=format&fit=crop",
         rotation: "rotate-3",
       },
     ],
@@ -495,7 +495,7 @@ export const siteContent: SiteContent = {
         description:
           "Varsity and middle-school athletic teams competing with tenacity, sportsmanship, and pride across competitive leagues.",
         image:
-          "https://images.unsplash.com/photo-1526676037777-05a232554f77?q=80&w=1200&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop",
         accentColor: "#1c6043",
         rotation: "-rotate-1",
       },
