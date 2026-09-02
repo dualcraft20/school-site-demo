@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Anton, Inter, Caveat, Playfair_Display } from "next/font/google";
 import { siteContent } from "@/data/content";
 import "./globals.css";
@@ -49,6 +50,11 @@ export default function RootLayout({
     >
       <body className="bg-black text-white antialiased selection:bg-crimson selection:text-white">
         {children}
+        <Script
+          src="https://cdn.zanderio.ai/widget/loader.js"
+          data-id="wdg_P7K9YdFxu8dbnLufvo59rCVl"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
